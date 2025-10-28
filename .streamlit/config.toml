@@ -1,0 +1,26 @@
+# Streamlit Configuration
+
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# Max file upload size (MB) - increase if needed
+maxUploadSize = 500
+
+# Enable XSRF protection
+enableXsrfProtection = true
+
+# Disable watch for file changes (production)
+# runOnSave = false
+
+[browser]
+# Automatically open browser
+gatherUsageStats = false
+
+[client]
+# Display toolbar in lower-right corner
+toolbarMode = "auto"
