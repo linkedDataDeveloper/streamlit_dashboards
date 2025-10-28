@@ -30,6 +30,14 @@ st.markdown("""
         height: 50px;
         padding-left: 20px;
         padding-right: 20px;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .stTabs [aria-selected="true"] {
+        background-color: #1f77b4;
+        color: white !important;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 </style>
 """, unsafe_allow_html=True)
